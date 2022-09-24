@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /// @fn void mostrarMenu(int*, int, int, int, int, int, int, int)
-/// @brief muestra un menu de opciones a elegir
+/// @brief muestra un menu de opciones a elegir valida y guarda la opcion ingresada
 ///
 /// @param pOpciones almacena la opcion ingresada
 /// @param acumHospedaje acumula el gasto de hospedaje
@@ -26,7 +26,7 @@ void mostrarMenu(int *pOpciones, int acumHospedaje, int acumComida,
 /// @return retorna 1 si salio bien o 0 si salio mal
 int confirmarSalida(char *pControl);
 /// @fn int getInt(int*, char*, int, int)
-/// @brief pide el ingreso de un numero al usuario y lo valida
+/// @brief pide el ingreso de un numero al usuario y lo valida para saber si es un numero y no otra cosa y tambien valida un rango
 ///
 /// @param numero guarda la opcion ingresada
 /// @param mensaje ingreso el mensaje por parametro

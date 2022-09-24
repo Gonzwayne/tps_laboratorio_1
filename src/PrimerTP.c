@@ -114,7 +114,7 @@ int main(void)
 				system("cls");
 				switch (opcPosicion) {
 				case 1:
-					if (contArquero > 1) {
+					if (contArquero == 2) {
 						printf("Supero cantidad de arqueros\n");
 					} else {
 						contArquero++;
@@ -125,7 +125,7 @@ int main(void)
 					}
 					break;
 				case 2:
-					if (contDefensor > 7) {
+					if (contDefensor == 8) {
 						printf("Supero cantidad de Defensores\n");
 					} else {
 						contDefensor++;
@@ -136,7 +136,7 @@ int main(void)
 					}
 					break;
 				case 3:
-					if (contMediocampista > 7) {
+					if (contMediocampista == 8) {
 						printf("Supero cantidad de mediocampistas\n");
 					} else {
 						contMediocampista++;
@@ -147,7 +147,7 @@ int main(void)
 					}
 					break;
 				case 4:
-					if (contDelantero > 3) {
+					if (contDelantero == 4) {
 						printf("Supero cantidad de delanteros\n");
 					} else {
 						contDelantero++;
